@@ -1,0 +1,9 @@
+version: '3.8'  # Specify the docker-compose version
+
+services:
+  your-app-name:  # Replace with your actual application name
+    build: .
+    volumes:
+      - ./:/usr/src/app  # Mount current directory as the application code
+    ports:
+      - "3000:3000"  # Map port 3000 of the container to port 3000 of the host
