@@ -8,7 +8,7 @@ This project is designed to provide a practice environment using a Docker contai
 
 ### Cmd
 
-Docker
+Dockerfile
 
 ```
 docker build -t server .
